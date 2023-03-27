@@ -1,0 +1,13 @@
+.Imgdiv {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Image {
+  width: 100%;
+  height: 90vh;
+}
+
+.title {
+  color: white;
+}

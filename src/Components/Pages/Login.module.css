@@ -1,0 +1,12 @@
+.form {
+  width: 20rem;
+}
+
+.button {
+  background-color: #34495e !important;
+}
+
+.button:hover {
+  background: #e9ece6 !important;
+  color: #34495e !important;
+}

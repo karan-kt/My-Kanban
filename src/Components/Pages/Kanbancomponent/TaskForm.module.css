@@ -1,0 +1,39 @@
+.mainbody {
+  margin-bottom: 1rem;
+  width: 40%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  margin-bottom: 1rem;
+  max-width: 50%;
+  width: 20rem;
+  z-index: 30;
+}
+
+.heading {
+  text-align: left;
+}
+
+.formicon:hover {
+  color: grey;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #34495e !important;
+}
+
+.button:hover {
+  background: #e9ece6 !important;
+  color: #34495e !important;
+}

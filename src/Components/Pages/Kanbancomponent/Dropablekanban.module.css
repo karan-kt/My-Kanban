@@ -1,0 +1,50 @@
+.mainbody {
+  list-style: none;
+  padding: 0rem;
+  height: 70vh;
+}
+
+.container {
+  max-width: 100%;
+  width: 16rem;
+  max-height: 75vh;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.id {
+  color: #34495e;
+  border-bottom: 1px solid #34495e;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main {
+  color: #34495e;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  /* padding-bottom: 1rem; */
+}
+
+.delete {
+  color: #34495e;
+  border-top: 1px solid #34495e;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}

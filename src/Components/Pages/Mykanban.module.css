@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+}
+
+.main {
+  display: flex;
+}
+
+.card {
+}
+
+.heading {
+  text-align: center;
+  color: #34495e;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  /* justify-content: space-between; */
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.button {
+  background-color: #34495e !important;
+}
+
+.button:hover {
+  background: #e9ece6 !important;
+  color: #34495e !important;
+}
